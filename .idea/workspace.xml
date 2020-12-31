@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a65a6d50-46e3-48a4-9a26-7f7a07ab636f" name="Default Changelist" comment="" />
+    <list default="true" id="a65a6d50-46e3-48a4-9a26-7f7a07ab636f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks.go" beforeDir="false" afterPath="$PROJECT_DIR$/blocks.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,30 +53,42 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="block" />
+    <option name="LAST_COMMIT_MESSAGE" value="block" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="861" y="467" width="187" height="185" key="#Custom_Plugin_Repositories" timestamp="1609445620001">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="861" y="467" width="187" height="185" key="#Custom_Plugin_Repositories/0.27.1920.1053@0.27.1920.1053" timestamp="1609445620001" />
-    <state width="914" height="275" key="GridCell.Tab.0.bottom" timestamp="1609447651625">
+    <state x="499" y="98" width="912" height="917" key="CommitChangelistDialog2" timestamp="1609447769560">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1609447651625" />
-    <state width="914" height="275" key="GridCell.Tab.0.center" timestamp="1609447651625">
+    <state x="499" y="98" width="912" height="917" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1609447769560" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1609449598548">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1609447651625" />
-    <state width="914" height="275" key="GridCell.Tab.0.left" timestamp="1609447651625">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1609449598548" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1609449598548">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1609447651625" />
-    <state width="914" height="275" key="GridCell.Tab.0.right" timestamp="1609447651625">
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1609449598548" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1609449598547">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="914" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1609447651625" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1609449598547" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1609449598548">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1609449598548" />
     <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1609445710663">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1609445710663" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1609447781834">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1609447781834" />
   </component>
 </project>

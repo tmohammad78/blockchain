@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	b := NewBlock("Hello")
-	fmt.Println(b)
+	bc := NewBlockChain()
+	bc.Add("Hello")
+	fmt.Println(bc)
 }
