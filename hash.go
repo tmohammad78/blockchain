@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func GenerateHash(data ...interface{}) []byte {
+func EasyHash(data ...interface{}) []byte {
 	hasher := sha256.New()
 	fmt.Fprint(hasher, data...)
 	return hasher.Sum(nil)

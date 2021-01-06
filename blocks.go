@@ -20,7 +20,7 @@ func (b *Block) String() string {
 }
 
 func (b *Block) Validate() error {
-	h := GenerateHash(b.Timestamp.UnixNano(), b.Data, b.prevHash)
+	h := EasyHash(b.Timestamp.UnixNano(), b.Data, b.prevHash)
 	if !bytes.Equal(h, b.Hash) {
 		return fmt.Errorf("the hash is invalid it should be %x is %x", h, b.Hash)
 	}
@@ -32,7 +32,7 @@ func NewBlock(data string, prevHash []byte) *Block {
 		Data:      []byte(data),
 		prevHash:  prevHash,
 	}
-	b.Hash = GenerateHash(b.Timestamp.UnixNano(), b.Data, b.prevHash)
+	b.Hash = EasyHash(b.Timestamp.UnixNano(), b.Data, b.prevHash)
 	return &b
 }
 
@@ -54,6 +54,21 @@ func (b *BlockChain) String() string {
 		ret += b.Blocks[i].String()
 	}
 	return ret
+}
+
+func (bc *BlockChain) Validate() error {
+	for i := range bc.Blocks {
+		if err := bc.Blocks[i].Validate(); err != nil {
+			return fmt.Errorf("Block chain is not valid : %w", err)
+		}
+		if i == 0 {
+			continue
+		}
+		if !bytes.Equal(bc.Blocks[i].prevHash, bc.Blocks[i-1].Hash) {
+			return fmt.Errorf("the order is invalid it  %x should be  %x", bc.Blocks[i].prevHash, bc.Blocks[i-1].Hash)
+		}
+	}
+	return nil
 }
 func NewBlockChain() *BlockChain {
 	bc := BlockChain{}
